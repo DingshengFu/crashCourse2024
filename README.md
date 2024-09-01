@@ -79,6 +79,35 @@ ___粗斜体___
 >Assignment02:归并排序，时间复杂度：O()  
 >Assignment03:快速排序，时间复杂度：O(nlogn)  
 >Assignment04:单源最短路径，采用BFS,时间复杂度：O(N²+E)  
+---
+5. 面向对象编程  
+6. Python GUI编程(tkinter)  
+  + >生成窗口：  
+        import tkinter as tk  
+        root = tk.Tk()  
+        root.title('标题名')  
+        root.geometry('宽x高')  
+        root.mainloop()  
+  + >常用控件：   
+        Label(父容器, text='文本内容')  标签控件  
+        Button(父容器, text='按钮文本', command=函数名)  按钮控件  
+        Entry(父容器, textvariable=变量名)  输入框控件  
+        Text(父容器)  文本框控件  
+        Checkbutton(父容器, text='选项文本', variable=变量名)  复选框控件  
+        Frame(父容器)  创建一个容器控件  
+        Menu(父容器)  创建一个菜单控件  
+  + >事件绑定：  
+        控件.bind('<事件类型>', 函数名)  绑定事件到控件上  
+        < KeyRelease >  
+        < ButtonRelease-1 >  
+  + >布局管理：  
+        Grid(父容器)  网格布局  
+        pack(父容器)  自动布局  
+        place(父容器)  绝对布局  
+7. Python 图像处理库PIL
+> Image模块：  open、save  
+8. squish游戏
+
 
 ---
 # Git的使用 
